@@ -1,0 +1,23 @@
+body {
+    width: 800px;
+    margin: auto;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: 70px auto;
+
+}
+
+header  {
+    /* justify-content: right; */
+    display: inline;
+    
+}
+
+#icons {
+    position: absolute;
+    left: 70%;
+    top: 2% ;
+}
