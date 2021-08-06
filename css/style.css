@@ -39,7 +39,7 @@ main section:nth-child(1){
 #lists{
     display: grid;
     grid-template-columns: auto auto;
-    background-image:url("./img/list-bg.png");
+    background-image:url("https://mohammadal-khatib.github.io/chocolate-pizza/img/list-bg.png");
     
 }
 ul{
