@@ -4,65 +4,95 @@
 body {
     width: 900px;
     margin: auto;
-
 }
 
 header{
     display: grid;
-    grid-template-columns: 70px auto;
-;
-
+    grid-template-columns:  50px 400px auto;
+    height: 70px;
 }
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
 header h4{
    font-weight: 800;
-   font-size: 30px;
-   font-family:'Times New Roman', Times, serif;
-
+   font-size: 35px;
+   font-family:'MonteCarlo', cursive;
+   vertical-align: top;
+}
+header p{
+    font-size: 50%;
+    color: rgb(115, 119, 119);
+}
+header section img:nth-child(1){
+padding-left: 213px;
+}
+header section img:nth-child(7){
+    padding-left: 15px;
+}
+hr {
+    border-top: 7px dashed grey;
 }
 
-header  {
-    /* justify-content: right; */
-    display: inline;
-    
-}
+  /* #######################  start main tag styling   #######################*/
 
-#icons {
-    position: absolute;
-    left: 65%;
-    top: 2% ;
-}
 main section:nth-child(1){
     display: grid;
-    grid-template-columns: auto auto;
-    
+    grid-template-columns: auto 13px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    align-items:center;
 }
+main section:nth-child(1) h3{
+    font-weight: bolder;
+    font-size: 38px;
+    }
+main section:nth-child(1) p{
+    font-size: 60%;
+    color: rgb(172, 190, 190);
+}
+main section:nth-child(1) img {
+    align-self: end;
+}
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Handlee&display=swap');
 #lists{
     display: grid;
     grid-template-columns: auto auto;
     background-image:url("https://mohammadal-khatib.github.io/chocolate-pizza/img/list-bg.png");
-    
+    padding-left: 100px;
+    font-family: 'Handlee', cursive;   
 }
 ul{
 padding: 50px;
-font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family:'Handlee', cursive;
 list-style-type:circle;
 }
 #last{
     display: grid;
     grid-template-columns: 90px 500px auto;
-
+    margin-top: 30px;  
 }
+#last p{color: rgb(168, 158, 158);}
+a{
+    display: inline;
+    background-color: brown;
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 130px;
+    text-align: center;
+}
+
+/* #######################  start footer tag styling   #######################*/
+
 footer{
     width: 900px;
-    height: 80px;
-    padding: 20px 300px;}
-    a{
-        display: inline-block;
-        background-color: brown;
-        border-style: solid;
-        border-width: 20px;
-        text-decoration: none;
-        color: white;
+    height: 120px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+footer img {margin:auto }
 
 
-    }
+
+
